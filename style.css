@@ -1,0 +1,264 @@
+
+html{
+    background-color: #EDF2C5; 
+    
+}
+body{
+    width: 1440px;
+    height: 1024px;
+}
+
+header{
+    display: inline-flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+     margin-right: 158px; 
+     margin-left: 160px;
+    
+}
+
+h1{
+    color:  #778A50;
+    font-family: Noto Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    margin-right: 661px;
+  
+    
+
+}
+
+.btn-group{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 208px;
+    height: 24px;
+    margin-top:55px ;
+   
+    margin-right: 158px;
+
+
+
+}
+
+
+.facebook{
+    
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-bottom: 27px;
+    margin-right: 12px;
+    
+}
+.instagram{
+    display: inline-flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right:12px;
+    margin-bottom: 27px;
+}
+
+
+.header-line{
+    width: 0px;
+    height: 22px;
+    border: 1px solid #778A50;
+   
+    
+ 
+
+}
+.text1{
+    color:  #778A50;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #778A50;
+    margin-left: 11px;
+    margin-bottom: 24px;
+    
+}
+.join{
+    margin-left: 14px;
+}
+
+.nav{
+    background:  #778A50;
+    border-radius: 3px;
+    justify-content:space-between;
+    width: 1120px;
+    height: 44px;
+    flex-shrink: 0; 
+    margin: 8px 160px 16px 160px ;
+
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 592px;
+    height: 24px;
+    list-style:none;
+    padding: 10px 658px 10px 30px;
+}
+
+li{
+    color: #EDF2C5;
+    /* Head2 */
+    align-items: center;
+    justify-content:center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; 
+}
+
+.main-img{
+    width: 1120px;
+    height: 448px;
+    flex-shrink: 0;
+    margin: 16px 160px 32px 160px;
+}
+
+.box{
+    display: flex;
+}
+.box-1{
+    display: flex;
+    height: 45px;
+    border-radius: 3px;
+    margin: 32px 0px 16px 160px;
+    align-items: center;
+    background-color:  #778A50;
+    border-radius: 3px;
+    
+}
+
+.img-vegetables{
+    display:flex;
+    width:528px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left:160px ;
+
+}
+
+
+.box-2{
+    display: flex;
+    height: 45px;
+    border-radius: 3px;
+    margin: 32px 160px 16px 64px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background:  #778A50;
+}
+h2{
+    color:#EDF2C5;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    margin-left: 30px ;
+}
+
+.contact a{
+    flex-direction: row;
+    margin:32px 160px 117px 64px;
+}
+.box-contact-text{
+  background:#F7FBDA;
+  display: flex;
+  flex-direction: column;
+  gap: 9px; 
+  flex-shrink: 0;
+  gap: 9px;
+  width: 528px;
+  height: 140px;
+  margin-right: 160px;
+  margin-left: 64px;
+
+}
+.div-line{
+    width: 496px;
+    height: 1px;
+    background:#7D7D7D ;
+    border: 1px;
+    margin-right: 16px;
+    margin-left: 16px;
+    
+}
+
+
+
+.word{
+    color: #7D7D7D;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    margin-top:16px;
+    margin-bottom:1px ;
+    margin-left: 16px;
+
+}
+.email{
+    color:  #7D7D7D;
+    display: flex;
+    height: 36px;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 1px;
+   
+    margin-left: 16px;
+}
+footer{
+    background-color: #778A50;
+    display:flex;
+    border-radius: 3px;
+    height: 60px;
+    padding: 21px 558px 21px 569px;
+    top: 964px;
+    flex-shrink: 0;
+    margin-top: 117px;
+}
+.footer p{
+    color:  #EDF2C5;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
